@@ -6,7 +6,7 @@ draft: false
 
 > ~/arcles/about
 
-Arcles adalah ruang dokumentasi statis dan arsip snippet pemrograman yang dikembangkan secara mandiri. Fokus pada performa mentah, kode bersih, dan estetika terminal tanpa animasi berlebihan atau *RGB light color*.
+Arcles adalah ruang dokumentasi statis dan arsip snippet pemrograman yang dikembangkan secara mandiri/sendiri ( ya gw lah jir siapa lagi ).
 
 - **Author**: arraydeveloper
 - **GitHub**: [github.com/arraynothere](https://github.com/arraynothere)
