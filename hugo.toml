@@ -1,0 +1,18 @@
+baseURL = 'https://arraynothere.github.io/Arcles/'
+languageCode = 'id-ID'
+title = 'Arcles'
+theme = 'arcles'
+
+[params]
+  author = "Array"
+  description = "Developer article space & snippet archive."
+  copyright = "© 2026 - Arcles"
+  github = "https://github.com/arraynothere"
+
+[markup]
+  [markup.highlight]
+    style = "github-dark"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+    guessSyntax = true

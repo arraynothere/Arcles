@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="fade-in">
+  <h2 style="margin-bottom: 1.5rem; font-size: 1.4rem;">// Index of /{{ if .Section }}{{ .Section }}{else.}}{{ .Title | lower }}{{ end }}</h2>
+  {{ range .Pages }}
+    <div class="post-card">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="post-meta">
+        <span>📅 {{ .Date.Format "2006-01-02" }}</span>
+        {{ if .Section }}<span>📁 {{ .Section }}</span>{{ end }}
+      </div>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">{{ .Summary }}</p>
+      <div class="tags">
+        {{ range .Params.tags }}
+          <span class="tag">#{{ . }}</span>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>
+{{ end }}
