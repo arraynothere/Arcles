@@ -15,7 +15,7 @@
 **Arcles** is an open-source static documentation site and technical archive dedicated to compiling source code, system analysis, cyber security insights, and computer science concepts. Engineered for developers and low-level enthusiasts, featuring a high-performance, clutter-free IDE-dark aesthetic.
 
 - **Core Topics**: Source Code Architecture, Cyber Security, Reverse Engineering, Low-Level Programming, and Computer Science logs.
-- **Live Site**: [arcles (GitHub Pages)](https://username.github.io/arcles/)
+- **Live Site**: [arcles (GitHub Pages)](https://username.github.io/Arcles/)
 
 ---
 
@@ -30,7 +30,7 @@
 ## 📂 Structure
 
 ```text
-arcles/
+Arcles/
 ├── archetypes/         # Default content templates
 ├── content/
 │   ├── posts/          # Markdown articles & code snippets (.md)
@@ -53,7 +53,7 @@ Make sure you have [Hugo](https://gohugo.io/getting-started/installing/) install
 ### Installation & Execution
 1. Clone this repository:
    ```bash
-   git clone https://github.com/arraynothere/arcles.git
+   git clone https://github.com/arraynothere/Arcles.git
    cd arcles
    ```
 2. Start the local development server:
